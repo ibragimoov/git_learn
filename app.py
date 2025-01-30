@@ -18,3 +18,14 @@ class User:
 user1 = User()
 user1.set_name('Боб')
 print(user1.get_name())
+
+class Hero:
+    hp = 100
+    attack = 30
+
+    def make_damage(self):
+        print('герой атакует')
+
+hero1 = Hero()
+
+hero1.make_damage()
